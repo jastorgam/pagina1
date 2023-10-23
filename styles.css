@@ -1,19 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 .contenedor {
     width: 400px;
     margin: 0 auto;
+
 }
 
 .header {
+    width: 400px;
+    display: table;
     background-color: black;
-    bottom: 0;
     color: white;
     text-align: center;
-    padding: 0;
+    height: 80px;
+    align-items: center;
+    padding: 10px;
 }
 
 .footer {
     position: fixed;
-    bottom: 0;
+    /* bottom: 0; */
     width: 400px;
     background-color: black;
     color: white;
@@ -22,5 +30,19 @@
 }
 
 .profile {
+    width: 400px;
+    background-color: aliceblue;
     text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+/* Estilo cuando el cursor pasa por encima del enlace */
+a:hover {
+    color: red;
+    text-decoration: none;
 }
